@@ -1,0 +1,29 @@
+.button1 {
+    border-radius: 16px;
+    border-color: darkcyan;
+    border-style: solid;
+font-size: 30px;
+    color:darkcyan;
+    background-color:rgb(235, 239, 243);
+    width: 200px;
+    
+}
+.button2{
+    border-radius: 100px;
+    border-color:cyan;
+    border-style: solid;
+font-size: 40px;
+    color:white;
+    background-color:cyan;
+    width: 50px;
+    height: 50px;
+    
+}
+.button3{
+    color: white;
+    background-color: royalblue;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    box-shadow:  5px 4px black;
+}

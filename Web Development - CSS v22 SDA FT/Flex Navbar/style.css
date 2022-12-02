@@ -1,0 +1,36 @@
+.nav-title{
+    color: aliceblue;
+    font-size: 30px;
+font-family: monospace;
+align-items:flex-start;
+}
+.nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(82, 81, 81);
+}
+.btn{
+    align-items: flex-end;
+}
+.nav-links{
+    width: 50%;
+    display:flex;
+    color: rgb(82, 81, 81);
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.btn{
+    color:aliceblue;
+    border-color: black;
+    background-color: rgb(46, 175, 175);
+    box-shadow: 2px 5px black;
+    justify-content:space-between;
+}
+.nav a{
+    color: aliceblue;
+    text-decoration:none;
+}
+.active{
+    font-family: monospace;
+}

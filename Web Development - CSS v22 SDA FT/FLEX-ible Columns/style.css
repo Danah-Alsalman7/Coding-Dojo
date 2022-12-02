@@ -1,0 +1,35 @@
+.row {
+    display: flex;
+}
+
+.col .col-2 .col-3 {
+    display: flex;
+    margin: 30px;
+    background-color: cadetblue;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.col {
+    font-size: 50px;
+    color: aliceblue;
+    margin: 20px;
+    flex: 1;
+    background-color: cadetblue;
+}
+
+.col-2 {
+    font-size: 50px;
+    color: aliceblue;
+    margin: 20px;
+    flex: 2;
+    background-color: cadetblue;
+}
+
+.col-3 {
+    font-size: 50px;
+    color: aliceblue;
+    flex: 3;
+    margin: 20px;
+    background-color: cadetblue;
+}
