@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li><a onclick="Loading()" href="#">Burbank</a></li>
+                <li><a href="#">Chicago</a></li>
+                <li><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="nav-2">
+        <h2 class="h2">San Jose</h2>
+        <div class="sel">
+        <p>Show temperature in</p>
+        <select onchange="convert(this)">
+            <option>°C</option>
+            <option>°F</option>
+        </select>
+        </div>
+        </div>
+        <hr>
+        <div id="all">
+        <div class="rain">
+            <h3 class="day">Today</h3>
+            <img class="img" src="some_rain.png" alt="some_rain">
+            <p class="under">some rain</p>
+            <span class="span1" id="temp1">24°</span><span class="span2" id="temp2">18°</span>
+        </div>
+        <div class="sun">
+            <h3 class="day">Tomorrow</h3>
+            <img class="img" src="some_sun.png" alt="some_sun">
+            <p class="under">some sun</p>
+            <span class="span1" id="temp3">27°</span><span class="span2" id="temp4">19°</span>
+        </div>
+        <div class="clouds">
+            <h3 class="day">Friday</h3>
+            <img class="img" src="some_clouds.png" alt="some_clouds">
+            <p class="under">some clouds</p>
+            <span class="span1" id="temp5">21°</span><span class="span2" id="temp6">16°</span>
+        </div>
+        <div class="sun">
+            <h3 class="day">Saturday</h3>
+            <img class="img" src="some_sun.png" alt="some_sun">
+            <p class="under">some sun</p>
+            <span class="span1" id="temp7">26°</span><span class="span2" id="temp8">21°</span>
+        </div>
+        </div>
+    <div id="footer">
+        <img class="coo" src="cookie.png" alt="cookie">
+        <div class="down">
+        <h3>Stop! Cookie time</h3>
+        <p>We use cookies(sadly not the edible ones) to personalize
+<br>content and ads, to provide social media features and to<br>
+    analyse our traffic.
+    <a href="Read more...">Read more...</a></p>
+    </div>
+        <button class="oneclick" onclick="myFunction1()">I Accept</button>
+    </div>
+</body>
+</html>
